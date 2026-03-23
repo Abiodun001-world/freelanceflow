@@ -93,7 +93,7 @@ DATABASE_URL="postgresql://username:password@localhost:5432/freelanceflow"
 | GET | `/api/clients/:id` | Get client by ID |
 | POST | `/api/clients/create` | Create a client |
 | PUT | `/api/clients/update/:id` | Update a client |
-| DELETE | `/api/clients/delete/:id` | Delete a client |
+| DELETE | `/api/clients/:id` | Delete a client |
 
 ### Invoices
 | Method | Endpoint | Description |
@@ -103,7 +103,7 @@ DATABASE_URL="postgresql://username:password@localhost:5432/freelanceflow"
 | GET | `/api/invoices/:id` | Get invoice by ID |
 | POST | `/api/invoices/create` | Create an invoice |
 | PATCH | `/api/invoices/update/:id/status` | Update invoice status |
-| DELETE | `/api/invoices/delete/:id` | Delete an invoice |
+| DELETE | `/api/invoices/:id` | Delete an invoice |
 
 ---
 
