@@ -107,6 +107,9 @@ DATABASE_URL="postgresql://username:password@localhost:5432/freelanceflow"
 
 ---
 
+## 📚 API Documentation
+[![Postman Docs](https://img.shields.io/badge/Postman-API%20Docs-orange?style=for-the-badge&logo=postman)](https://documenter.getpostman.com/view/28730642/2sBXijKXVH)
+
 ## 📦 Sample Request
 
 ### Create a Client
